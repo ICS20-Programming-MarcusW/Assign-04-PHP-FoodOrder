@@ -1,0 +1,148 @@
+/* Created by: Marcus Wehbi
+* Created on: May 2022
+* This CSS file defines the style for index.php
+* Assign-04-PHP-FoodOrder
+*/
+
+body {
+  background-color: #fffbe0 !important;
+}
+
+h1 {
+  display: block !important;
+  font-size: 50px !important;
+  margin-block-start: 0.67em !important;
+  margin-block-end: 0.67em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: bold !important;
+  margin: 8px 8px 8px 8px !important; 
+  background-color: rgb(233, 211, 238) !important;
+	color: hsl(228, 95%, 30%) !important;
+	padding: 100px !important;
+	text-align: center !important;
+  border-style: solid !important;
+  border-width: 4px !important;
+}
+
+h2 {
+  display: block !important;
+  font-size: 1.5em !important;
+  margin-block-start: 0.83em !important;
+  margin-block-end: 0.83em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: bold !important;
+  margin: 8px 8px 8px 8px !important; 
+  background-color: rgb(153, 234, 229) !important;
+	color: hsl(195, 100%, 30%) !important;
+	padding: 30px !important;
+	text-align: center !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  opacity: 0.9 !important;
+}
+
+hr {
+  border-width: 12px !important;
+}
+
+h3 {
+  colour: #660000 !important;
+  background-color: #f3b8f4 !important;
+  padding: 20px !important;
+  width: 80% !important;
+  font-size: 21px !important;
+}
+
+h4 {
+  colour: #4e0fc2 !important;
+  background-color: #e1f4ee !important;
+  padding: 20px !important;
+  width: 60% !important;
+  font-size: 21px !important;
+  font-family: monospace !important;;
+}
+
+h5 {
+  colour: #670674 !important;
+  background-color: #d3f4b8 !important;
+  padding: 20px !important;
+  width: 100% !important;
+  font-size: 18px !important;
+  font-family: verdana;
+}
+
+p {
+	background-color: rgb(243, 244, 190) !important;
+	color: hsl(58, 100%, 23%) !important;
+  padding: 5px !important;
+  text-align: center !important;
+  font-family: garamond !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 8px !important;
+}
+
+iframe {
+  margin-bottom: 5%;
+  background-color: #dfd0e7;
+	padding: 20px;
+  width: 80%;
+  margin-left: 2%;
+  margin-right: 8%;
+	margin-top: 15px;
+}
+
+.res {
+  background-color: #f4dbbe !important;
+}
+
+form {
+  background-color: #f4c7c7 !important;
+  margin: 10px !important;
+  padding: 10px !important;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.column {
+  float: left !important;
+  width: 50% !important;
+  padding: 5px !important;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "" !important;
+  clear: both !important;
+  display: table !important;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "" !important;
+  clear: both !important;
+  display: table !important;
+}
+
+.mdl-mini-footer {
+  background-color: #5a5353 !important;
+}
+
+.column {
+    float: left !important;
+    width: 50% !important;
+    padding: 10px !important;
+}
+.row {
+  margin: 50px;
+}
+
